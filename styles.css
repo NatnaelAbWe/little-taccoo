@@ -1,0 +1,104 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general body style */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    background-color: #bbafaf;
+    margin:25px 20%;
+}
+
+/*header*/
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+a:hover{
+    transform: scale(1.2);
+}
+
+.header-link>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20vh;
+    min-height: 50vh;
+    background-image: url(./roberto-carlos-roman-don-TS_g_856-CA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fffefe;
+
+}
+
+.menu{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.menu table{
+    border: solid black 1px;
+}
+
+td{
+       border: solid black 1px;
+       padding: 5px;
+ 
+}
+
+.booking{
+    margin: 5px 10%;
+}
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    min-height: 40px;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    font-size: 1.5rem;
+    background-color: rgb(79, 79, 184);
+}
+
+footer{
+    border-top: solid 1px black;
+    margin: 10px;
+    text-align: center;
+}
+
+footer p{
+    margin: 10px;
+    border-top: solid 1px black;
+        
+}
+
